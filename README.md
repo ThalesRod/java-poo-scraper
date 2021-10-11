@@ -19,6 +19,8 @@ javac zoologico/*.java
 # para rodar o programa
 java zoologico.Main
 ~~~
+Depois de rodar o programa, basta entrar com os dados dos animais que forem solicitados, ao fim da inserção eles são exibidos na tela.
+
 
 Scraper:
 ~~~bash
@@ -30,6 +32,7 @@ java -cp jscraper/jsoup-1.14.3.jar:. jscraper.Main
 
 # a flag -cp é para adicionar a biblioteca do jsoup ao class path do java
 ~~~
+Quando executado, o programa exibe na tela dados de uma determinada partida, a URL e o número da partida (url e Npartida) são variáveis presentes dentro do código, portanto podem ser alteradas para ter outros resultados da coleta.
 
 ## Como melhorar?
 O scraper futuramente pode ser incrementando colocando a saída dos dados coletados em um arquivo CSV ou JSON.
