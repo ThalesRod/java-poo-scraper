@@ -4,7 +4,7 @@
 2 projetos feitos em Java, um programa simples com principais fundamentos de POO e um scraper simples.
 
 ## Sobre o scraper
-O scraper coleta dados do site da (wiki de jogos competitivos de League of Legends)["https://lol.fandom.com/wiki/LCK/2021_Season/Summer_Season/Match_History"], mais especificamente do histórico de partidas de determinada liga (no caso desse projeto da liga coreana, a LCK), armazena essas informações em um array de objetos Partida e fica pra pronto pra uso posterior. Feito utilizando a biblioteca de web scraping (Jsoup)["https://jsoup.org/"].
+O scraper coleta dados do site da [wiki de jogos competitivos de League of Legends]("https://lol.fandom.com/wiki/LCK/2021_Season/Summer_Season/Match_History"), mais especificamente do histórico de partidas de determinada liga (no caso desse projeto da liga coreana, a LCK), armazena essas informações em um array de objetos Partida e fica pra pronto pra uso posterior. Feito utilizando a biblioteca de web scraping [Jsoup]("https://jsoup.org/").
 
 ## Como está organizado?
 Na pasta zoologico estão os arquivos relacionados ao projeto de POO e na pasta jscraper estão os arquivos relacionados ao scraper.
