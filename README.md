@@ -13,7 +13,20 @@ Na pasta zoologico estão os arquivos relacionados ao projeto de POO e na pasta 
 Ambos os programas foram compilados e executados num ambiente Linux (Debian) pelo terminal com o openjdk 11.0.6.
 
 ~~~bash
-java -c
+# para compilar o programa de POO do zoologico
+javac zoologico/*.java
+# para rodar o programa
+java zoologico.Main
+~~~
+
+~~~bash
+# para compilar o programa do scraper
+javac -cp jscraper/jsoup-1.14.3.jar jscraper/*.java
+
+# para rodar o programa
+java -cp jscraper/jsoup-1.14.3.jar:. jscraper.Main
+
+# a flag -cp é para adicionar a biblioteca do jsoup ao class path do java
 ~~~
 
 ## Como melhorar?
